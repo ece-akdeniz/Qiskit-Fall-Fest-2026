@@ -1,0 +1,722 @@
+[
+  {
+    "label": "middle-7",
+    "qubits": [
+      44,
+      45,
+      46,
+      47,
+      57,
+      67,
+      66,
+      65,
+      64,
+      63,
+      62,
+      61
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8782823929350057,
+      "qubits": [
+        44,
+        45,
+        46,
+        47,
+        57,
+        67,
+        66,
+        65,
+        64,
+        63,
+        62,
+        61
+      ]
+    }
+  },
+  {
+    "label": "middle-6",
+    "qubits": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      57,
+      47,
+      46,
+      45,
+      44
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8782440894647502,
+      "qubits": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        57,
+        47,
+        46,
+        45,
+        44
+      ]
+    }
+  },
+  {
+    "label": "middle-12",
+    "qubits": [
+      37,
+      45,
+      46,
+      47,
+      57,
+      67,
+      66,
+      65,
+      64,
+      63,
+      62,
+      61
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8776660936310066,
+      "qubits": [
+        37,
+        45,
+        46,
+        47,
+        57,
+        67,
+        66,
+        65,
+        64,
+        63,
+        62,
+        61
+      ]
+    }
+  },
+  {
+    "label": "middle-13",
+    "qubits": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      57,
+      47,
+      46,
+      45,
+      37
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.877627817038669,
+      "qubits": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        57,
+        47,
+        46,
+        45,
+        37
+      ]
+    }
+  },
+  {
+    "label": "middle-14",
+    "qubits": [
+      45,
+      46,
+      47,
+      57,
+      67,
+      66,
+      65,
+      64,
+      63,
+      62,
+      61,
+      60
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8752558484086627,
+      "qubits": [
+        45,
+        46,
+        47,
+        57,
+        67,
+        66,
+        65,
+        64,
+        63,
+        62,
+        61,
+        60
+      ]
+    }
+  },
+  {
+    "label": "middle-15",
+    "qubits": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      57,
+      47,
+      46,
+      45
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8751970851101161,
+      "qubits": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        57,
+        47,
+        46,
+        45
+      ]
+    }
+  },
+  {
+    "label": "tree",
+    "qubits": [
+      67,
+      68,
+      57,
+      66,
+      69,
+      47,
+      65,
+      70,
+      46,
+      77,
+      64,
+      71
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.536,
+      "idle_after_entangling_us": 1.4000000000000001,
+      "ESP": 0.8749624979372778,
+      "qubits": [
+        67,
+        68,
+        57,
+        66,
+        69,
+        47,
+        65,
+        70,
+        46,
+        77,
+        64,
+        71
+      ]
+    }
+  },
+  {
+    "label": "middle-1",
+    "qubits": [
+      50,
+      49,
+      48,
+      47,
+      57,
+      67,
+      66,
+      65,
+      64,
+      63,
+      62,
+      61
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8749381363449352,
+      "qubits": [
+        50,
+        49,
+        48,
+        47,
+        57,
+        67,
+        66,
+        65,
+        64,
+        63,
+        62,
+        61
+      ]
+    }
+  },
+  {
+    "label": "middle-0",
+    "qubits": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      57,
+      47,
+      48,
+      49,
+      50
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8748999787237072,
+      "qubits": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        57,
+        47,
+        48,
+        49,
+        50
+      ]
+    }
+  },
+  {
+    "label": "middle-9",
+    "qubits": [
+      49,
+      48,
+      47,
+      57,
+      67,
+      66,
+      65,
+      64,
+      63,
+      62,
+      61,
+      60
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8747647658031623,
+      "qubits": [
+        49,
+        48,
+        47,
+        57,
+        67,
+        66,
+        65,
+        64,
+        63,
+        62,
+        61,
+        60
+      ]
+    }
+  },
+  {
+    "label": "middle-8",
+    "qubits": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      57,
+      47,
+      48,
+      49
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.874706035475128,
+      "qubits": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        57,
+        47,
+        48,
+        49
+      ]
+    }
+  },
+  {
+    "label": "middle-11",
+    "qubits": [
+      88,
+      89,
+      78,
+      69,
+      68,
+      67,
+      66,
+      65,
+      64,
+      63,
+      62,
+      61
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8736436692396747,
+      "qubits": [
+        88,
+        89,
+        78,
+        69,
+        68,
+        67,
+        66,
+        65,
+        64,
+        63,
+        62,
+        61
+      ]
+    }
+  },
+  {
+    "label": "middle-10",
+    "qubits": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      78,
+      89,
+      88
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8736055680724787,
+      "qubits": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        78,
+        89,
+        88
+      ]
+    }
+  },
+  {
+    "label": "middle-3",
+    "qubits": [
+      38,
+      49,
+      48,
+      47,
+      57,
+      67,
+      66,
+      65,
+      64,
+      63,
+      62,
+      61
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8734942094094836,
+      "qubits": [
+        38,
+        49,
+        48,
+        47,
+        57,
+        67,
+        66,
+        65,
+        64,
+        63,
+        62,
+        61
+      ]
+    }
+  },
+  {
+    "label": "middle-2",
+    "qubits": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      57,
+      47,
+      48,
+      49,
+      38
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8734561147604988,
+      "qubits": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        57,
+        47,
+        48,
+        49,
+        38
+      ]
+    }
+  },
+  {
+    "label": "middle-5",
+    "qubits": [
+      51,
+      50,
+      49,
+      48,
+      47,
+      57,
+      67,
+      68,
+      69,
+      78,
+      89,
+      88
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8669619218773937,
+      "qubits": [
+        51,
+        50,
+        49,
+        48,
+        47,
+        57,
+        67,
+        68,
+        69,
+        78,
+        89,
+        88
+      ]
+    }
+  },
+  {
+    "label": "middle-4",
+    "qubits": [
+      88,
+      89,
+      78,
+      69,
+      68,
+      67,
+      57,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.632,
+      "idle_after_entangling_us": 2.3520000000000003,
+      "ESP": 0.8669539709426821,
+      "qubits": [
+        88,
+        89,
+        78,
+        69,
+        68,
+        67,
+        57,
+        47,
+        48,
+        49,
+        50,
+        51
+      ]
+    }
+  },
+  {
+    "label": "tree",
+    "qubits": [
+      68,
+      67,
+      69,
+      57,
+      66,
+      70,
+      47,
+      65,
+      71,
+      77,
+      64,
+      58
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.568,
+      "idle_after_entangling_us": 1.6640000000000001,
+      "ESP": 0.8660055534929503,
+      "qubits": [
+        68,
+        67,
+        69,
+        57,
+        66,
+        70,
+        47,
+        65,
+        71,
+        77,
+        64,
+        58
+      ]
+    }
+  }
+]

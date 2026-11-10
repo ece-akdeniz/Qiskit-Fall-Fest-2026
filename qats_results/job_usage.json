@@ -43,5 +43,20 @@
     "job_id": "dbpl9n5t7fqc7389kp9g",
     "status": "DONE",
     "billed_seconds": 13.0
+  },
+  "clean_cat_extension_live": {
+    "job_id": "dbpmfbs4148s739usd20",
+    "status": "DONE",
+    "billed_seconds": 13.0
+  },
+  "clean_cat_extension_live_tree": {
+    "job_id": "dbpmgloqtr0c738em22g",
+    "status": "DONE",
+    "billed_seconds": 13.0
+  },
+  "clean_cat_extension_live_factor7": {
+    "job_id": "dbpmhfoou4as73ctu4t0",
+    "status": "DONE",
+    "billed_seconds": 13.0
   }
 }

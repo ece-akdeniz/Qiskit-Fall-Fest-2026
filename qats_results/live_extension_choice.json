@@ -1,0 +1,40 @@
+{
+  "label": "middle-7",
+  "qubits": [
+    44,
+    45,
+    46,
+    47,
+    57,
+    67,
+    66,
+    65,
+    64,
+    63,
+    62,
+    61
+  ],
+  "report": {
+    "n": 12,
+    "two_qubit_gates": 11,
+    "swap_overhead": 0,
+    "two_qubit_depth": 6,
+    "duration_us": 0.632,
+    "idle_after_entangling_us": 2.3520000000000003,
+    "ESP": 0.8782823929350057,
+    "qubits": [
+      44,
+      45,
+      46,
+      47,
+      57,
+      67,
+      66,
+      65,
+      64,
+      63,
+      62,
+      61
+    ]
+  }
+}

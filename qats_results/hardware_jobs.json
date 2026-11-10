@@ -61,5 +61,40 @@
     "shots_per_circuit": 267,
     "estimated_seconds": 12.157459639999995,
     "job_id": "dbpl9n5t7fqc7389kp9g"
+  },
+  "clean_cat_extension_live": {
+    "state": "submitted",
+    "circuits": 106,
+    "shots_per_circuit": 375,
+    "estimated_seconds": 12.071189,
+    "job_id": "dbpmfbs4148s739usd20"
+  },
+  "clean_cat_extension_live_tree": {
+    "state": "submitted",
+    "circuits": 106,
+    "shots_per_circuit": 375,
+    "estimated_seconds": 12.068921000000001,
+    "job_id": "dbpmgloqtr0c738em22g"
+  },
+  "clean_cat_extension_live_factor7": {
+    "state": "submitted",
+    "circuits": 106,
+    "shots_per_circuit": 375,
+    "estimated_seconds": 12.080981000000005,
+    "job_id": "dbpmhfoou4as73ctu4t0"
+  },
+  "big_cat_48_extension": {
+    "state": "submitted",
+    "circuits": 48,
+    "shots_per_circuit": 1000,
+    "estimated_seconds": 14.140288000000005,
+    "job_id": "dbpml7gou4as73ctuak0"
+  },
+  "big_cat_64_extension": {
+    "state": "submitted",
+    "circuits": 48,
+    "shots_per_circuit": 750,
+    "estimated_seconds": 11.110976,
+    "job_id": "dbpmlclt7fqc7389mmhg"
   }
 }
