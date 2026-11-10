@@ -47,5 +47,12 @@
     "shots_per_circuit": 833,
     "estimated_seconds": 12.12045020000001,
     "job_id": "dbpjtstt7fqc7389ipjg"
+  },
+  "clean_cat_defne_recipe": {
+    "state": "submitted",
+    "circuits": 106,
+    "shots_per_circuit": 375,
+    "estimated_seconds": 12.068921000000001,
+    "job_id": "dbpk88c4148s739up4d0"
   }
 }

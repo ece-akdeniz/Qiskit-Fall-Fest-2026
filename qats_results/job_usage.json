@@ -1,0 +1,42 @@
+{
+  "test_flight": {
+    "job_id": "dbpjnkgou4as73ctq5g0",
+    "status": "DONE",
+    "billed_seconds": 2.0
+  },
+  "clean_cat": {
+    "job_id": "dbpjo8s4148s739uodm0",
+    "status": "DONE",
+    "billed_seconds": 11.0
+  },
+  "big_cat": {
+    "job_id": "dbpjod0qtr0c738ei4d0",
+    "status": "DONE",
+    "billed_seconds": 9.0
+  },
+  "big_cat_48_precision": {
+    "job_id": "dbpjq4c4148s739uogh0",
+    "status": "DONE",
+    "billed_seconds": 15.0
+  },
+  "big_cat_40_fallback": {
+    "job_id": "dbpjrfs4148s739uoiag",
+    "status": "DONE",
+    "billed_seconds": 9.0
+  },
+  "clean_cat_no_dd": {
+    "job_id": "dbpjsv0qtr0c738eibcg",
+    "status": "DONE",
+    "billed_seconds": 13.0
+  },
+  "big_cat_48_no_dd": {
+    "job_id": "dbpjtstt7fqc7389ipjg",
+    "status": "DONE",
+    "billed_seconds": 13.0
+  },
+  "clean_cat_defne_recipe": {
+    "job_id": "dbpk88c4148s739up4d0",
+    "status": "DONE",
+    "billed_seconds": 13.0
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "screen_seed": 9301,
+  "recipe": {
+    "readout_mitigation": true,
+    "gate_twirling": false,
+    "randomizations": 16,
+    "dd": null,
+    "zne_factors": [
+      1
+    ],
+    "zne_extrapolator": "exponential"
+  },
+  "rank": 12,
+  "qubits": [
+    118,
+    109,
+    129,
+    110,
+    108,
+    128,
+    111,
+    107,
+    98,
+    106,
+    97,
+    91
+  ],
+  "report": {
+    "n": 12,
+    "two_qubit_gates": 11,
+    "swap_overhead": 0,
+    "two_qubit_depth": 6,
+    "duration_us": 0.568,
+    "idle_after_entangling_us": 1.4640000000000002,
+    "ESP": 0.8429198177960405,
+    "qubits": [
+      118,
+      109,
+      129,
+      110,
+      108,
+      128,
+      111,
+      107,
+      98,
+      106,
+      97,
+      91
+    ]
+  },
+  "result": {
+    "F": 0.9604666963218702,
+    "F_err": 0.015149330047053251,
+    "P": 0.9847525167912249,
+    "P_err": 0.008197415586382933,
+    "X": 0.9514283590612906,
+    "X_err": 0.018852652678897384,
+    "n": 12,
+    "shots": 12000,
+    "details": {
+      "per_factor": {
+        "1": {
+          "P": 0.9847525167912249,
+          "X": 0.9514283590612906,
+          "F": 0.9604666963218702
+        }
+      },
+      "recipe": {
+        "readout_mitigation": true,
+        "gate_twirling": false,
+        "randomizations": 16,
+        "dd": null,
+        "zne_factors": [
+          1
+        ],
+        "zne_extrapolator": "exponential"
+      }
+    },
+    "certified": true
+  },
+  "eps_star": 0.05468263372518305
+}

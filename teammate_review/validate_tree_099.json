@@ -1,0 +1,155 @@
+{
+  "seed": 9401,
+  "nominal_total_shots": 100000,
+  "qubits": [
+    118,
+    109,
+    129,
+    110,
+    108,
+    128,
+    111,
+    107,
+    98,
+    106,
+    97,
+    91
+  ],
+  "report": {
+    "n": 12,
+    "two_qubit_gates": 11,
+    "swap_overhead": 0,
+    "two_qubit_depth": 6,
+    "duration_us": 0.568,
+    "idle_after_entangling_us": 1.4640000000000002,
+    "ESP": 0.8429198177960405,
+    "qubits": [
+      118,
+      109,
+      129,
+      110,
+      108,
+      128,
+      111,
+      107,
+      98,
+      106,
+      97,
+      91
+    ]
+  },
+  "results": {
+    "quadratic": {
+      "F": 0.9722427971672483,
+      "F_err": 0.014856729809729494,
+      "P": 0.990998038243496,
+      "P_err": 0.009416348206511155,
+      "X": 0.9624895178475047,
+      "X_err": 0.02008262945454833,
+      "n": 12,
+      "shots": 99904,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9756614187972011,
+            "X": 0.935719693480796,
+            "F": 0.9435212655375991
+          },
+          "3": {
+            "P": 0.9362886002459777,
+            "X": 0.8817642925138938,
+            "F": 0.8771707465029246
+          },
+          "5": {
+            "P": 0.8853163421498786,
+            "X": 0.8272545552356879,
+            "F": 0.7989436197677227
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1,
+            3,
+            5
+          ],
+          "zne_extrapolator": "quadratic"
+        }
+      },
+      "certified": true
+    },
+    "exponential": {
+      "F": 0.9847762314624562,
+      "F_err": 0.010053985959243927,
+      "P": 1.0019813103636253,
+      "P_err": 0.006227782297820916,
+      "X": 0.965589842197662,
+      "X_err": 0.011452269230573478,
+      "n": 12,
+      "shots": 99904,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9756614187972011,
+            "X": 0.935719693480796,
+            "F": 0.9435212655375991
+          },
+          "3": {
+            "P": 0.9362886002459777,
+            "X": 0.8817642925138938,
+            "F": 0.8771707465029246
+          },
+          "5": {
+            "P": 0.8853163421498786,
+            "X": 0.8272545552356879,
+            "F": 0.7989436197677227
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1,
+            3,
+            5
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    }
+  },
+  "recipes": {
+    "quadratic": {
+      "readout_mitigation": true,
+      "gate_twirling": false,
+      "randomizations": 16,
+      "dd": null,
+      "zne_factors": [
+        1,
+        3,
+        5
+      ],
+      "zne_extrapolator": "quadratic"
+    },
+    "exponential": {
+      "readout_mitigation": true,
+      "gate_twirling": false,
+      "randomizations": 16,
+      "dd": null,
+      "zne_factors": [
+        1,
+        3,
+        5
+      ],
+      "zne_extrapolator": "exponential"
+    }
+  },
+  "target_reached": false,
+  "selection_note": "Seed 9401 was held out from tree and recipe screening."
+}

@@ -25,7 +25,6 @@ Contents
 from __future__ import annotations
 
 import base64
-import copy
 import io
 import json
 import math
@@ -443,10 +442,6 @@ class CatSimulator:
             self._full_noise = NoiseModel.from_backend(self.backend)
         self._nm_cache: dict = {}
         self._twirl_cache: dict = {}
-        # Qats modification (2026-11-10): represent idle relaxation as native
-        # Kraus instructions to avoid an Aer 0.18 QuantumError composition crash.
-        # This preserves the full T1/T2 channel, gate noise and readout noise.
-        self._idle_kraus_cache: dict = {}
 
     # -- internals -----------------------------------------------------------
     def _compact_noise_model(self, phys: tuple[int, ...]):
@@ -542,31 +537,8 @@ class CatSimulator:
                 groups.setdefault((phys, s), []).append((i, self._compact(sched, mp, det)))
         out: list[dict] = [dict() for _ in circuits]
         for (phys, s), items in groups.items():
-            from qiskit.quantum_info import Kraus
-
-            full_noise = self._compact_noise_model(phys)
-            gate_readout_noise = copy.copy(full_noise)
-            gate_readout_noise._custom_noise_passes = []
-            bodies = [c for _, c in items]
-            if full_noise._custom_noise_passes:
-                bodies = PassManager(full_noise._custom_noise_passes).run(bodies)
-            native_bodies = []
-            for body in bodies:
-                native = body.copy_empty_like()
-                for inst in body.data:
-                    op = inst.operation
-                    if op.name == "quantum_channel":
-                        channel = op._quantum_error.to_quantumchannel()
-                        key = (channel.num_qubits, channel.data.tobytes())
-                        if key not in self._idle_kraus_cache:
-                            self._idle_kraus_cache[key] = Kraus(channel).to_instruction()
-                        op = self._idle_kraus_cache[key]
-                    native.append(op, inst.qubits, inst.clbits)
-                native_bodies.append(native)
-            sim = AerSimulator(method=self.method, noise_model=gate_readout_noise)
-            res = sim.run(native_bodies, shots=s, seed_simulator=int(self.rng.integers(2**31))).result()
-            if not res.success:
-                raise RuntimeError(f"Aer simulation failed: {res.status}")
+            sim = AerSimulator(method=self.method, noise_model=self._compact_noise_model(phys))
+            res = sim.run([c for _, c in items], shots=s, seed_simulator=int(self.rng.integers(2**31))).result()
             for k, (i, _) in enumerate(items):
                 for key, v in res.get_counts(k).items():
                     out[i][key] = out[i].get(key, 0) + v

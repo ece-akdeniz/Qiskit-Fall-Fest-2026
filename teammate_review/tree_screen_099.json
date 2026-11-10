@@ -1,0 +1,1280 @@
+[
+  {
+    "rank": 1,
+    "qubits": [
+      106,
+      105,
+      107,
+      104,
+      117,
+      108,
+      97,
+      103,
+      109,
+      87,
+      110,
+      118
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.568,
+      "idle_after_entangling_us": 1.2960000000000003,
+      "ESP": 0.8648331502422136,
+      "qubits": [
+        106,
+        105,
+        107,
+        104,
+        117,
+        108,
+        97,
+        103,
+        109,
+        87,
+        110,
+        118
+      ]
+    },
+    "result": {
+      "F": 0.9395314717335211,
+      "F_err": 0.014796635995120384,
+      "P": 0.9681227542048507,
+      "P_err": 0.008332288682675616,
+      "X": 0.9428174350573408,
+      "X_err": 0.018012084280534052,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9681227542048507,
+            "X": 0.9428174350573408,
+            "F": 0.9395314717335211
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.07526516426159924
+  },
+  {
+    "rank": 2,
+    "qubits": [
+      105,
+      104,
+      117,
+      106,
+      103,
+      107,
+      108,
+      97,
+      109,
+      87,
+      110,
+      118
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 8,
+      "duration_us": 0.736,
+      "idle_after_entangling_us": 2.5360000000000005,
+      "ESP": 0.8598144773519751,
+      "qubits": [
+        105,
+        104,
+        117,
+        106,
+        103,
+        107,
+        108,
+        97,
+        109,
+        87,
+        110,
+        118
+      ]
+    },
+    "result": {
+      "F": 0.9296965771134162,
+      "F_err": 0.014212425065811428,
+      "P": 0.9604876012080975,
+      "P_err": 0.008503341121849943,
+      "X": 0.9384179518106375,
+      "X_err": 0.0168658527863588,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9604876012080975,
+            "X": 0.9384179518106375,
+            "F": 0.9296965771134162
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.08451584795239518
+  },
+  {
+    "rank": 3,
+    "qubits": [
+      104,
+      105,
+      103,
+      117,
+      106,
+      107,
+      108,
+      97,
+      109,
+      87,
+      110,
+      118
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 8,
+      "duration_us": 0.7680000000000001,
+      "idle_after_entangling_us": 2.6,
+      "ESP": 0.8597390101660861,
+      "qubits": [
+        104,
+        105,
+        103,
+        117,
+        106,
+        107,
+        108,
+        97,
+        109,
+        87,
+        110,
+        118
+      ]
+    },
+    "result": {
+      "F": 0.9405350747162227,
+      "F_err": 0.014280605676744058,
+      "P": 0.9679122619910203,
+      "P_err": 0.00870200495743276,
+      "X": 0.9452456254504048,
+      "X_err": 0.016053619957821542,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9679122619910203,
+            "X": 0.9452456254504048,
+            "F": 0.9405350747162227
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.07374553096052139
+  },
+  {
+    "rank": 4,
+    "qubits": [
+      117,
+      105,
+      104,
+      106,
+      103,
+      107,
+      108,
+      97,
+      109,
+      87,
+      110,
+      118
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 8,
+      "duration_us": 0.7680000000000001,
+      "idle_after_entangling_us": 2.6,
+      "ESP": 0.8593805301569899,
+      "qubits": [
+        117,
+        105,
+        104,
+        106,
+        103,
+        107,
+        108,
+        97,
+        109,
+        87,
+        110,
+        118
+      ]
+    },
+    "result": {
+      "F": 0.9289231439092336,
+      "F_err": 0.014154494639723306,
+      "P": 0.9591730357016263,
+      "P_err": 0.008339761475858451,
+      "X": 0.9395002164152148,
+      "X_err": 0.0176539007331723,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9591730357016263,
+            "X": 0.9395002164152148,
+            "F": 0.9289231439092336
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.08523135073048972
+  },
+  {
+    "rank": 5,
+    "qubits": [
+      107,
+      108,
+      106,
+      97,
+      109,
+      105,
+      87,
+      110,
+      118,
+      104,
+      117,
+      111
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 5,
+      "duration_us": 0.468,
+      "idle_after_entangling_us": 0.928,
+      "ESP": 0.8539698914560327,
+      "qubits": [
+        107,
+        108,
+        106,
+        97,
+        109,
+        105,
+        87,
+        110,
+        118,
+        104,
+        117,
+        111
+      ]
+    },
+    "result": {
+      "F": 0.9371832619445075,
+      "F_err": 0.013274692091314499,
+      "P": 0.9700710791455093,
+      "P_err": 0.008363591537517546,
+      "X": 0.9342243655979966,
+      "X_err": 0.01623031750651761,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9700710791455093,
+            "X": 0.9342243655979966,
+            "F": 0.9371832619445075
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.07609143014680698
+  },
+  {
+    "rank": 6,
+    "qubits": [
+      103,
+      104,
+      105,
+      117,
+      106,
+      107,
+      108,
+      97,
+      109,
+      87,
+      110,
+      118
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 9,
+      "duration_us": 0.8680000000000001,
+      "idle_after_entangling_us": 3.4360000000000004,
+      "ESP": 0.8521417155325779,
+      "qubits": [
+        103,
+        104,
+        105,
+        117,
+        106,
+        107,
+        108,
+        97,
+        109,
+        87,
+        110,
+        118
+      ]
+    },
+    "result": {
+      "F": 0.927870626717392,
+      "F_err": 0.01383935982229744,
+      "P": 0.9607469315377543,
+      "P_err": 0.008223954453784226,
+      "X": 0.9342473903592754,
+      "X_err": 0.016741034652793755,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9607469315377543,
+            "X": 0.9342473903592754,
+            "F": 0.927870626717392
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.08596873310490548
+  },
+  {
+    "rank": 7,
+    "qubits": [
+      97,
+      107,
+      87,
+      108,
+      106,
+      109,
+      105,
+      110,
+      118,
+      104,
+      117,
+      111
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.568,
+      "idle_after_entangling_us": 1.364,
+      "ESP": 0.8480060312120957,
+      "qubits": [
+        97,
+        107,
+        87,
+        108,
+        106,
+        109,
+        105,
+        110,
+        118,
+        104,
+        117,
+        111
+      ]
+    },
+    "result": {
+      "F": 0.9353151317648094,
+      "F_err": 0.014661975053695979,
+      "P": 0.9683079648977052,
+      "P_err": 0.008736892251303512,
+      "X": 0.9340143337342083,
+      "X_err": 0.01774704813656065,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9683079648977052,
+            "X": 0.9340143337342083,
+            "F": 0.9353151317648094
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.07934684328888658
+  },
+  {
+    "rank": 8,
+    "qubits": [
+      109,
+      110,
+      108,
+      118,
+      111,
+      107,
+      129,
+      98,
+      106,
+      97,
+      128,
+      91
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 5,
+      "duration_us": 0.468,
+      "idle_after_entangling_us": 1.1280000000000001,
+      "ESP": 0.8446531810288996,
+      "qubits": [
+        109,
+        110,
+        108,
+        118,
+        111,
+        107,
+        129,
+        98,
+        106,
+        97,
+        128,
+        91
+      ]
+    },
+    "result": {
+      "F": 0.9481412489186134,
+      "F_err": 0.015519595776454091,
+      "P": 0.9648357992253132,
+      "P_err": 0.008976735093160416,
+      "X": 0.9666108993866005,
+      "X_err": 0.01969157632677592,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9648357992253132,
+            "X": 0.9666108993866005,
+            "F": 0.9481412489186134
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.06737834685784069
+  },
+  {
+    "rank": 9,
+    "qubits": [
+      108,
+      109,
+      107,
+      110,
+      118,
+      106,
+      97,
+      111,
+      129,
+      105,
+      87,
+      98
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 5,
+      "duration_us": 0.468,
+      "idle_after_entangling_us": 0.9600000000000001,
+      "ESP": 0.8445890919725771,
+      "qubits": [
+        108,
+        109,
+        107,
+        110,
+        118,
+        106,
+        97,
+        111,
+        129,
+        105,
+        87,
+        98
+      ]
+    },
+    "result": {
+      "F": 0.9484111143680777,
+      "F_err": 0.01444776070576592,
+      "P": 0.9710049828479326,
+      "P_err": 0.008819250401556804,
+      "X": 0.9548122630402902,
+      "X_err": 0.016990390872795483,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9710049828479326,
+            "X": 0.9548122630402902,
+            "F": 0.9484111143680777
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.06603664633768824
+  },
+  {
+    "rank": 10,
+    "qubits": [
+      110,
+      109,
+      111,
+      108,
+      118,
+      98,
+      107,
+      129,
+      91,
+      106,
+      97,
+      128
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 5,
+      "duration_us": 0.5000000000000001,
+      "idle_after_entangling_us": 1.192,
+      "ESP": 0.8442617485786911,
+      "qubits": [
+        110,
+        109,
+        111,
+        108,
+        118,
+        98,
+        107,
+        129,
+        91,
+        106,
+        97,
+        128
+      ]
+    },
+    "result": {
+      "F": 0.9582696600712843,
+      "F_err": 0.015480817676589832,
+      "P": 0.96981337409343,
+      "P_err": 0.008851582829104448,
+      "X": 0.9769125719557085,
+      "X_err": 0.018276108980337335,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.96981337409343,
+            "X": 0.9769125719557085,
+            "F": 0.9582696600712843
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.0572111576053055
+  },
+  {
+    "rank": 11,
+    "qubits": [
+      65,
+      77,
+      66,
+      64,
+      85,
+      67,
+      63,
+      57,
+      68,
+      62,
+      69,
+      61
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.568,
+      "idle_after_entangling_us": 1.7280000000000002,
+      "ESP": 0.8438113927473682,
+      "qubits": [
+        65,
+        77,
+        66,
+        64,
+        85,
+        67,
+        63,
+        57,
+        68,
+        62,
+        69,
+        61
+      ]
+    },
+    "result": {
+      "F": 0.9425400476550247,
+      "F_err": 0.014860363655235865,
+      "P": 0.9711266840936873,
+      "P_err": 0.008362863518732253,
+      "X": 0.9428267271226749,
+      "X_err": 0.01810988139323624,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9711266840936873,
+            "X": 0.9428267271226749,
+            "F": 0.9425400476550247
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.07232031600021112
+  },
+  {
+    "rank": 12,
+    "qubits": [
+      118,
+      109,
+      129,
+      110,
+      108,
+      128,
+      111,
+      107,
+      98,
+      106,
+      97,
+      91
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.568,
+      "idle_after_entangling_us": 1.4640000000000002,
+      "ESP": 0.8429198177960405,
+      "qubits": [
+        118,
+        109,
+        129,
+        110,
+        108,
+        128,
+        111,
+        107,
+        98,
+        106,
+        97,
+        91
+      ]
+    },
+    "result": {
+      "F": 0.9604666963218702,
+      "F_err": 0.015149330047053251,
+      "P": 0.9847525167912249,
+      "P_err": 0.008197415586382933,
+      "X": 0.9514283590612906,
+      "X_err": 0.018852652678897384,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9847525167912249,
+            "X": 0.9514283590612906,
+            "F": 0.9604666963218702
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.05468263372518305
+  },
+  {
+    "rank": 13,
+    "qubits": [
+      66,
+      67,
+      65,
+      57,
+      68,
+      77,
+      64,
+      69,
+      85,
+      63,
+      62,
+      61
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 7,
+      "duration_us": 0.668,
+      "idle_after_entangling_us": 2.128,
+      "ESP": 0.8422865170071941,
+      "qubits": [
+        66,
+        67,
+        65,
+        57,
+        68,
+        77,
+        64,
+        69,
+        85,
+        63,
+        62,
+        61
+      ]
+    },
+    "result": {
+      "F": 0.9231594286930048,
+      "F_err": 0.015158570848842154,
+      "P": 0.9579732729120819,
+      "P_err": 0.009524989884967694,
+      "X": 0.9303723115618459,
+      "X_err": 0.018078321230015803,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9579732729120819,
+            "X": 0.9303723115618459,
+            "F": 0.9231594286930048
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.09199914215583734
+  },
+  {
+    "rank": 14,
+    "qubits": [
+      111,
+      110,
+      98,
+      109,
+      91,
+      108,
+      118,
+      90,
+      107,
+      129,
+      89,
+      106
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 5,
+      "duration_us": 0.532,
+      "idle_after_entangling_us": 1.452,
+      "ESP": 0.8408922989105352,
+      "qubits": [
+        111,
+        110,
+        98,
+        109,
+        91,
+        108,
+        118,
+        90,
+        107,
+        129,
+        89,
+        106
+      ]
+    },
+    "result": {
+      "F": 0.9554757177082907,
+      "F_err": 0.01604794832722669,
+      "P": 0.983097837176904,
+      "P_err": 0.009570804988928296,
+      "X": 0.9447557610627731,
+      "X_err": 0.018375935691442944,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.983097837176904,
+            "X": 0.9447557610627731,
+            "F": 0.9554757177082907
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.06057223061893604
+  },
+  {
+    "rank": 15,
+    "qubits": [
+      63,
+      64,
+      62,
+      65,
+      61,
+      77,
+      66,
+      76,
+      60,
+      85,
+      67,
+      81
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 5,
+      "duration_us": 0.5000000000000001,
+      "idle_after_entangling_us": 1.224,
+      "ESP": 0.8406279310304087,
+      "qubits": [
+        63,
+        64,
+        62,
+        65,
+        61,
+        77,
+        66,
+        76,
+        60,
+        85,
+        67,
+        81
+      ]
+    },
+    "result": {
+      "F": 0.9472018282137189,
+      "F_err": 0.01512650369990291,
+      "P": 0.9754158729800809,
+      "P_err": 0.008491430169271178,
+      "X": 0.9435719104672761,
+      "X_err": 0.018008787206094647,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9754158729800809,
+            "X": 0.9435719104672761,
+            "F": 0.9472018282137189
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.06792467548618401
+  },
+  {
+    "rank": 16,
+    "qubits": [
+      64,
+      63,
+      65,
+      62,
+      77,
+      66,
+      61,
+      85,
+      67,
+      76,
+      60,
+      57
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 6,
+      "duration_us": 0.568,
+      "idle_after_entangling_us": 1.6640000000000001,
+      "ESP": 0.8399345135661636,
+      "qubits": [
+        64,
+        63,
+        65,
+        62,
+        77,
+        66,
+        61,
+        85,
+        67,
+        76,
+        60,
+        57
+      ]
+    },
+    "result": {
+      "F": 0.9328706056830527,
+      "F_err": 0.016491153411147177,
+      "P": 0.9657467822208707,
+      "P_err": 0.009045363070333707,
+      "X": 0.9342476469243638,
+      "X_err": 0.020216362136603886,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9657467822208707,
+            "X": 0.9342476469243638,
+            "F": 0.9328706056830527
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.08362054772809449
+  },
+  {
+    "rank": 17,
+    "qubits": [
+      129,
+      118,
+      128,
+      109,
+      110,
+      108,
+      111,
+      107,
+      98,
+      106,
+      97,
+      91
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 7,
+      "duration_us": 0.668,
+      "idle_after_entangling_us": 2.0,
+      "ESP": 0.8397385822342669,
+      "qubits": [
+        129,
+        118,
+        128,
+        109,
+        110,
+        108,
+        111,
+        107,
+        98,
+        106,
+        97,
+        91
+      ]
+    },
+    "result": {
+      "F": 0.949244076082622,
+      "F_err": 0.014632176534710701,
+      "P": 0.9711860594219842,
+      "P_err": 0.008760652035947641,
+      "X": 0.9561160333212754,
+      "X_err": 0.017562547626811465,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9711860594219842,
+            "X": 0.9561160333212754,
+            "F": 0.949244076082622
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.06538810045208875
+  },
+  {
+    "rank": 18,
+    "qubits": [
+      85,
+      77,
+      65,
+      66,
+      64,
+      67,
+      63,
+      57,
+      68,
+      62,
+      69,
+      61
+    ],
+    "report": {
+      "n": 12,
+      "two_qubit_gates": 11,
+      "swap_overhead": 0,
+      "two_qubit_depth": 7,
+      "duration_us": 0.7000000000000001,
+      "idle_after_entangling_us": 2.46,
+      "ESP": 0.8396093888045235,
+      "qubits": [
+        85,
+        77,
+        65,
+        66,
+        64,
+        67,
+        63,
+        57,
+        68,
+        62,
+        69,
+        61
+      ]
+    },
+    "result": {
+      "F": 0.9572552664235764,
+      "F_err": 0.015258240682827214,
+      "P": 0.9692683357738798,
+      "P_err": 0.00874674794774819,
+      "X": 0.9759738612993931,
+      "X_err": 0.01831258440406897,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9692683357738798,
+            "X": 0.9759738612993931,
+            "F": 0.9572552664235764
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.05800297425925083
+  }
+]

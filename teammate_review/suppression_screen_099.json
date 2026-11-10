@@ -1,0 +1,238 @@
+[
+  {
+    "label": "TREX + ZNE",
+    "seed": 9501,
+    "recipe": {
+      "readout_mitigation": true,
+      "gate_twirling": false,
+      "randomizations": 16,
+      "dd": null,
+      "zne_factors": [
+        1,
+        3,
+        5
+      ],
+      "zne_extrapolator": "exponential"
+    },
+    "result": {
+      "F": 0.9777508980130956,
+      "F_err": 0.013822233371823209,
+      "P": 0.9856239718046684,
+      "P_err": 0.008295701509344536,
+      "X": 0.9842538524168541,
+      "X_err": 0.018941907721819647,
+      "n": 12,
+      "shots": 39984,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9660684408486556,
+            "X": 0.9512694097656564,
+            "F": 0.9417031457314838
+          },
+          "3": {
+            "P": 0.9275867396554975,
+            "X": 0.8818826998768674,
+            "F": 0.8685280895939312
+          },
+          "5": {
+            "P": 0.891314482647348,
+            "X": 0.8254780195801742,
+            "F": 0.8040534924374352
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1,
+            3,
+            5
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.03607133535872765
+  },
+  {
+    "label": "DD + TREX + ZNE",
+    "seed": 9501,
+    "recipe": {
+      "readout_mitigation": true,
+      "gate_twirling": false,
+      "randomizations": 16,
+      "dd": "XX",
+      "zne_factors": [
+        1,
+        3,
+        5
+      ],
+      "zne_extrapolator": "exponential"
+    },
+    "result": {
+      "F": 0.97038223396548,
+      "F_err": 0.01328514677159205,
+      "P": 0.9850337405135513,
+      "P_err": 0.00824387422374357,
+      "X": 0.9706969869038574,
+      "X_err": 0.016455741145070795,
+      "n": 12,
+      "shots": 39984,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9634391172209402,
+            "X": 0.9400780049448838,
+            "F": 0.9334781196933821
+          },
+          "3": {
+            "P": 0.9254602542113862,
+            "X": 0.904713165711243,
+            "F": 0.8778168370670077
+          },
+          "5": {
+            "P": 0.8845917550803007,
+            "X": 0.8415936425220866,
+            "F": 0.805388576341344
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": "XX",
+          "zne_factors": [
+            1,
+            3,
+            5
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.042902912806112095
+  },
+  {
+    "label": "TREX + twirling + ZNE",
+    "seed": 9501,
+    "recipe": {
+      "readout_mitigation": true,
+      "gate_twirling": true,
+      "randomizations": 16,
+      "dd": null,
+      "zne_factors": [
+        1,
+        3,
+        5
+      ],
+      "zne_extrapolator": "exponential"
+    },
+    "result": {
+      "F": 1.0002504048917102,
+      "F_err": 0.013794861769962615,
+      "P": 1.0063937570372254,
+      "P_err": 0.008228172553194829,
+      "X": 0.9877132957089697,
+      "X_err": 0.017854307624491972,
+      "n": 12,
+      "shots": 39984,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9829290245584517,
+            "X": 0.9478380964803876,
+            "F": 0.9568480727986455
+          },
+          "3": {
+            "P": 0.9258332817896102,
+            "X": 0.9019236371304983,
+            "F": 0.8767951003548593
+          },
+          "5": {
+            "P": 0.8873210448941574,
+            "X": 0.8196412891866375,
+            "F": 0.7971416894874761
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": true,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1,
+            3,
+            5
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.014045266661672858
+  },
+  {
+    "label": "DD + TREX + twirling + ZNE",
+    "seed": 9501,
+    "recipe": {
+      "readout_mitigation": true,
+      "gate_twirling": true,
+      "randomizations": 16,
+      "dd": "XX",
+      "zne_factors": [
+        1,
+        3,
+        5
+      ],
+      "zne_extrapolator": "exponential"
+    },
+    "result": {
+      "F": 0.9739658759385726,
+      "F_err": 0.013862123826658222,
+      "P": 0.9936037805266715,
+      "P_err": 0.008456110799530132,
+      "X": 0.9607241908238022,
+      "X_err": 0.01775032722767648,
+      "n": 12,
+      "shots": 39984,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9684054038136618,
+            "X": 0.9337455396502236,
+            "F": 0.9352781736387736
+          },
+          "3": {
+            "P": 0.9329020256874752,
+            "X": 0.877829910936992,
+            "F": 0.8718169811559712
+          },
+          "5": {
+            "P": 0.8830284508007233,
+            "X": 0.8305516557648289,
+            "F": 0.7983042786831378
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": true,
+          "randomizations": 16,
+          "dd": "XX",
+          "zne_factors": [
+            1,
+            3,
+            5
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.03989624788808557
+  }
+]

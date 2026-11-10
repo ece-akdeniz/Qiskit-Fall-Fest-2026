@@ -1,0 +1,60 @@
+{
+  "seed": 9201,
+  "nominal_total_shots": 100000,
+  "recipe": {
+    "readout_mitigation": true,
+    "gate_twirling": true,
+    "randomizations": 16,
+    "dd": "XX",
+    "zne_factors": [
+      1,
+      3,
+      5
+    ],
+    "zne_extrapolator": "exponential"
+  },
+  "result": {
+    "F": 0.9827057876198037,
+    "F_err": 0.0086830727061848,
+    "P": 0.9895543714200274,
+    "P_err": 0.005234448350180452,
+    "X": 0.9863028323995524,
+    "X_err": 0.010845891048314116,
+    "n": 12,
+    "shots": 99904,
+    "details": {
+      "per_factor": {
+        "1": {
+          "P": 0.9671054191550322,
+          "X": 0.9540457956412888,
+          "F": 0.9441283169756767
+        },
+        "3": {
+          "P": 0.9242994617661946,
+          "X": 0.8786738167356852,
+          "F": 0.8636363701340373
+        },
+        "5": {
+          "P": 0.8826435473871352,
+          "X": 0.8274571949251307,
+          "F": 0.7963721448497005
+        }
+      },
+      "recipe": {
+        "readout_mitigation": true,
+        "gate_twirling": true,
+        "randomizations": 16,
+        "dd": "XX",
+        "zne_factors": [
+          1,
+          3,
+          5
+        ],
+        "zne_extrapolator": "exponential"
+      }
+    },
+    "certified": true
+  },
+  "target_reached": false,
+  "selection_note": "Seed 9201 was held out from all circuit and recipe selection."
+}

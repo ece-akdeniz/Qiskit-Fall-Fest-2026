@@ -59,3 +59,30 @@ credentials in Qiskit's local account storage, outside the submission files.
 its signed inverse. This illustrates PEC, its calibration cost and sampling
 overhead. It is not a calibrated Kingston model and is not a leaderboard or
 hardware fidelity claim. The notebook includes the executed demonstration.
+
+## Defne comparison (team repository commit 3d61bb8)
+
+Defne reports a 12-qubit hardware result F=0.965±0.014, same-job baseline0.592±0.008, R8.31 (about11.46/15 hardware points). Her raw hardware files are pending, so this value is not yet used in submission_Qats.json. She has no completed Biggest Cat result in the inspected notebook.
+
+We replicated three candidates with equal nominal26,880-shot budgets on fresh paired seeds8101–8103. Original tree recipe: mean F0.975998, mean sigma0.017074, mean conservative error0.041076. Defne’s middle-chain recipe:0.979067,0.013270,0.034203. Our tree plus Defne’s TREX/exponential-ZNE(1,5), DDoff, gate-twirlingoff:0.983309,0.013920,0.030611. Differences in mean fidelity are small; the combined recipe chiefly reduces shot uncertainty. Independent seed9101 gave F0.974094±0.013789, score24.2/25; this is the final reported simulator result.
+
+One follow-up Kingston run uses the saved live tree plus that two-factor recipe: job dbpk88c4148s739up4d0, F0.942735±0.014250, same-job baseline0.604513±0.007198. It improves recorded hardware points to about9.25/15; the fidelity difference from the prior0.920±0.015 does not meet a two-sigma significance test. The certified40-qubit hardware result is retained. Raw counts, experiment definitions and independent comparisons are saved. The original toolkit file is restored byte-for-byte; compatibility is external in qats.py.
+
+## Final 0.99 simulator refinement
+
+The earlier combined recipe prioritized conservative error and produced
+F=0.974094±0.013789 on independent seed 9101. A new suppression ablation on
+paired seed 9501 isolated gate twirling as the useful final change:
+TREX+ZNE gave 0.978±0.014; adding DD gave 0.970±0.013; adding gate twirling
+without DD gave 1.000±0.014; and DD+twirling gave 0.974±0.014. The selected
+recipe is therefore TREX + gate twirling + exponential ZNE factors (1,3,5),
+with DD disabled.
+
+The final held-out grader-scale run used simulator and experiment seed 9601,
+which was absent from all layout and recipe screening. At a nominal 100,000
+shots it returned F=0.998651±0.008625 (displayed as 0.999±0.009), P=1.000599
+and X=0.996105. The result and per-factor measurements are stored in
+`teammate_review/final_verify_099.json`; the executable verification is
+`teammate_review/final_verify_099.py`. This meets the requested 0.99 simulator
+fidelity target. It is a zero-noise estimate for Cleanest Cat and is not used
+for Biggest Cat certification.
