@@ -1,5 +1,19 @@
 # 🐱 Herding Quantum Cats — Qiskit Fall Fest 2026 Stuttgart
 
+## Final submission
+
+These three files are the team hand-in. Post them together.
+
+| File | What |
+|---|---|
+| `team_Qats.ipynb` | Executed notebook |
+| `submission_Qats.json` | Scored submission |
+| `pitch_Qats.pptx` | Five-minute deck |
+
+Headline numbers frozen in `submission_Qats.json`: simulator F = 0.999 ± 0.009, Kingston F = 0.965 ± 0.014 (about 11.5 of 15 hardware points), certified biggest cat = 40 qubits on hardware.
+
+The sections below are the original challenge instructions. Experiment notes and intermediate results stay in `QATS_RUN_NOTES.md`, `qats_results/`, and `teammate_review/`.
+
 Build the cleanest and the biggest GHZ ("cat") state you can on an IBM Heron
 processor: first on a realistic simulator, then on the real **ibm_kingston**.
 

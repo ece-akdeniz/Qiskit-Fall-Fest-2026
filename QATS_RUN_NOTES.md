@@ -62,7 +62,7 @@ hardware fidelity claim. The notebook includes the executed demonstration.
 
 ## Defne comparison (team repository commit 3d61bb8)
 
-Defne reports a 12-qubit hardware result F=0.965±0.014, same-job baseline0.592±0.008, R8.31 (about11.46/15 hardware points). Her raw hardware files are pending, so this value is not yet used in submission_Qats.json. She has no completed Biggest Cat result in the inspected notebook.
+Defne reports a 12-qubit hardware result F=0.965±0.014, same-job baseline 0.592±0.008, R=8.31 (about 11.46/15 hardware points). The verified raw counts for Kingston job dbpjq25t7fqc7389ijj0 are included in `submission_Qats.json`; the frozen figures are in Final scoring freeze below. Her inspected notebook had no completed Biggest Cat result. The team submission keeps the certified 40-qubit hardware cat.
 
 We replicated three candidates with equal nominal26,880-shot budgets on fresh paired seeds8101–8103. Original tree recipe: mean F0.975998, mean sigma0.017074, mean conservative error0.041076. Defne’s middle-chain recipe:0.979067,0.013270,0.034203. Our tree plus Defne’s TREX/exponential-ZNE(1,5), DDoff, gate-twirlingoff:0.983309,0.013920,0.030611. Differences in mean fidelity are small; the combined recipe chiefly reduces shot uncertainty. Independent seed9101 gave F0.974094±0.013789, score24.2/25; this is the final reported simulator result.
 
