@@ -1,0 +1,252 @@
+[
+  {
+    "seed": 10101,
+    "nominal_total_shots": 40000,
+    "recipe": {
+      "readout_mitigation": true,
+      "gate_twirling": true,
+      "randomizations": 32,
+      "dd": null,
+      "zne_factors": [
+        1,
+        3,
+        5
+      ],
+      "zne_extrapolator": "exponential"
+    },
+    "result": {
+      "F": 0.9833424824192836,
+      "F_err": 0.012454728289901169,
+      "P": 0.9922424524693587,
+      "P_err": 0.007328211754422817,
+      "X": 0.9822000598998496,
+      "X_err": 0.018267759181983156,
+      "n": 12,
+      "shots": 39872,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9726810558129142,
+            "X": 0.9474158314588662,
+            "F": 0.9463889715423472
+          },
+          "3": {
+            "P": 0.9153252597494861,
+            "X": 0.8862632196513646,
+            "F": 0.8584568695751684
+          },
+          "5": {
+            "P": 0.8874200490835652,
+            "X": 0.8237616531716386,
+            "F": 0.7993008756693845
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": true,
+          "randomizations": 32,
+          "dd": null,
+          "zne_factors": [
+            1,
+            3,
+            5
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.0291122458706176
+  },
+  {
+    "seed": 10101,
+    "nominal_total_shots": 40000,
+    "recipe": {
+      "readout_mitigation": true,
+      "gate_twirling": true,
+      "randomizations": 64,
+      "dd": null,
+      "zne_factors": [
+        1,
+        3,
+        5
+      ],
+      "zne_extrapolator": "exponential"
+    },
+    "result": {
+      "F": 0.9949435614384239,
+      "F_err": 0.014173449844639318,
+      "P": 1.0082511268914698,
+      "P_err": 0.008721594094669636,
+      "X": 0.9733848690939081,
+      "X_err": 0.018748228883726403,
+      "n": 12,
+      "shots": 39872,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9765676663180652,
+            "X": 0.934109501824116,
+            "F": 0.9436224172301233
+          },
+          "3": {
+            "P": 0.9192299378800434,
+            "X": 0.8928053401788321,
+            "F": 0.8656326079694594
+          },
+          "5": {
+            "P": 0.8613825421869472,
+            "X": 0.8124664763193236,
+            "F": 0.767615780346609
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": true,
+          "randomizations": 64,
+          "dd": null,
+          "zne_factors": [
+            1,
+            3,
+            5
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.019229888406215433
+  },
+  {
+    "seed": 10101,
+    "nominal_total_shots": 40000,
+    "recipe": {
+      "readout_mitigation": true,
+      "gate_twirling": true,
+      "randomizations": 32,
+      "dd": null,
+      "zne_factors": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "zne_extrapolator": "exponential"
+    },
+    "result": {
+      "F": 0.955952376518195,
+      "F_err": 0.01446830738468589,
+      "P": 0.9853141392025434,
+      "P_err": 0.008398801278193143,
+      "X": 0.9412764746313032,
+      "X_err": 0.01819554767336732,
+      "n": 12,
+      "shots": 39744,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.955151497812521,
+            "X": 0.9209804336066193,
+            "F": 0.9156417146158307
+          },
+          "3": {
+            "P": 0.922190281709447,
+            "X": 0.8424780865790014,
+            "F": 0.8434293249989476
+          },
+          "5": {
+            "P": 0.8617685578112247,
+            "X": 0.7850234702761795,
+            "F": 0.7542802929493144
+          },
+          "7": {
+            "P": 0.8228854911207717,
+            "X": 0.7622691667899135,
+            "F": 0.7040200745157285
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": true,
+          "randomizations": 32,
+          "dd": null,
+          "zne_factors": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.058515930866490914
+  },
+  {
+    "seed": 10101,
+    "nominal_total_shots": 40000,
+    "recipe": {
+      "readout_mitigation": true,
+      "gate_twirling": true,
+      "randomizations": 64,
+      "dd": null,
+      "zne_factors": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "zne_extrapolator": "exponential"
+    },
+    "result": {
+      "F": 1.001862257244414,
+      "F_err": 0.014299813676402009,
+      "P": 0.9986577641136776,
+      "P_err": 0.008554831179695471,
+      "X": 1.006408986261473,
+      "X_err": 0.017751457733186534,
+      "n": 12,
+      "shots": 39744,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9714729553719043,
+            "X": 0.9658668952681085,
+            "F": 0.9544064030059585
+          },
+          "3": {
+            "P": 0.9337890407969012,
+            "X": 0.879397690880525,
+            "F": 0.8734878862371637
+          },
+          "5": {
+            "P": 0.883825145615234,
+            "X": 0.8605744627145205,
+            "F": 0.8141123769724943
+          },
+          "7": {
+            "P": 0.8397993096962331,
+            "X": 0.741164609036429,
+            "F": 0.7103816142144476
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": true,
+          "randomizations": 64,
+          "dd": null,
+          "zne_factors": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.01616207092081603
+  }
+]

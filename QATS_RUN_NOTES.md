@@ -90,3 +90,28 @@ for Biggest Cat certification.
 
 ## Final scoring freeze
 Verified Defne hardware job dbpjq25t7fqc7389ijj0: F=0.964540±0.013669, baseline=0.591590±0.007638, epsilon*=0.049128, R=8.313, estimated 11.46/15. Raw counts included. Biggest Cat remains certified N=40 hardware without ZNE.
+
+
+## Biggest Cat certification matrix
+### Complete Biggest Cat certification audit
+
+Certification uses the published rule **F − 2σ > 0.5**, with raw or TREX-corrected data and **no ZNE**.
+
+| Qubits | Environment | Fidelity | F−2σ | Certified |
+|---:|---|---:|---:|:---:|
+| 16 | simulator | 0.922751±0.005939 | 0.910872 | **YES** |
+| 24 | simulator | 0.843953±0.007295 | 0.829362 | **YES** |
+| 32 | simulator | 0.802746±0.009804 | 0.783138 | **YES** |
+| 40 | hardware | 0.567877±0.018907 | 0.530062 | **YES** |
+| 48 | simulator | 0.675638±0.028458 | 0.618722 | **YES** |
+| 48 | hardware-pooled audit | 0.510445±0.013827 | 0.482791 | **NO** |
+| 64 | simulator stretch | 0.555862±0.033947 | 0.487968 | **NO** |
+
+Every leaderboard size tier (16, 24, 32, 40 and 48+) has a certified result. The largest certified
+**hardware** result remains 40 qubits, worth 12/15 Biggest Cat points. The 48-qubit simulator result
+certifies that size, but simulator scores receive half hardware points. Three 48-qubit hardware trials
+did not certify. Pooling the two experiments with identical preparation, recipe, seed, masks and circuit
+order produced F=0.510445±0.013827, with
+F−2σ=0.482791; this is still below 0.5 and is reported honestly.
+The 64-qubit stretch result also remains uncertified. Its uncertainty cannot be relabelled as evidence.
+

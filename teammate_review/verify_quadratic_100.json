@@ -1,0 +1,60 @@
+{
+  "seed": 10001,
+  "nominal_total_shots": 100000,
+  "recipe": {
+    "readout_mitigation": true,
+    "gate_twirling": true,
+    "randomizations": 16,
+    "dd": null,
+    "zne_factors": [
+      1,
+      3,
+      5
+    ],
+    "zne_extrapolator": "quadratic"
+  },
+  "result": {
+    "F": 0.9926935083173974,
+    "F_err": 0.012110971855892536,
+    "P": 1.000900700842766,
+    "P_err": 0.008604168963057959,
+    "X": 0.983585614949263,
+    "X_err": 0.01784835399063712,
+    "n": 12,
+    "shots": 99904,
+    "details": {
+      "per_factor": {
+        "1": {
+          "P": 0.9717580014782338,
+          "X": 0.9517556728707272,
+          "F": 0.9476358379135974
+        },
+        "3": {
+          "P": 0.9193926979055471,
+          "X": 0.88243912763901,
+          "F": 0.8606122617250521
+        },
+        "5": {
+          "P": 0.8749208545413631,
+          "X": 0.8055803676411475,
+          "F": 0.7777110383619369
+        }
+      },
+      "recipe": {
+        "readout_mitigation": true,
+        "gate_twirling": true,
+        "randomizations": 16,
+        "dd": null,
+        "zne_factors": [
+          1,
+          3,
+          5
+        ],
+        "zne_extrapolator": "quadratic"
+      }
+    },
+    "certified": true
+  },
+  "eps_star": 0.01941746353849509,
+  "target_reached": false
+}

@@ -1,0 +1,67 @@
+{
+  "seed": 10201,
+  "nominal_total_shots": 100000,
+  "recipe": {
+    "readout_mitigation": true,
+    "gate_twirling": true,
+    "randomizations": 64,
+    "dd": null,
+    "zne_factors": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "zne_extrapolator": "exponential"
+  },
+  "result": {
+    "F": 0.9893327967192668,
+    "F_err": 0.009591842457736517,
+    "P": 1.0002792810119763,
+    "P_err": 0.005310038241802878,
+    "X": 0.978107031414581,
+    "X_err": 0.012079631914681135,
+    "n": 12,
+    "shots": 99648,
+    "details": {
+      "per_factor": {
+        "1": {
+          "P": 0.9762477793270062,
+          "X": 0.9457810479526493,
+          "F": 0.9491383033033309
+        },
+        "3": {
+          "P": 0.9280715357619693,
+          "X": 0.8710526688551561,
+          "F": 0.8635978701895474
+        },
+        "5": {
+          "P": 0.8820826266699229,
+          "X": 0.8124375965005597,
+          "F": 0.7883014249202027
+        },
+        "7": {
+          "P": 0.8415281566248753,
+          "X": 0.7573254169161584,
+          "F": 0.7201908650829545
+        }
+      },
+      "recipe": {
+        "readout_mitigation": true,
+        "gate_twirling": true,
+        "randomizations": 64,
+        "dd": null,
+        "zne_factors": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "zne_extrapolator": "exponential"
+      }
+    },
+    "certified": true
+  },
+  "eps_star": 0.020259045738469747,
+  "target_reached": false
+}

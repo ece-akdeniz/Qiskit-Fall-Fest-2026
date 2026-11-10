@@ -41,7 +41,7 @@
   },
   "clean_cat_defne_layout_twirling": {
     "job_id": "dbpl9n5t7fqc7389kp9g",
-    "status": "QUEUED",
-    "billed_seconds": 0.0
+    "status": "DONE",
+    "billed_seconds": 13.0
   }
 }

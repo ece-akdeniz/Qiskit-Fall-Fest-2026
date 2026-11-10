@@ -1,0 +1,182 @@
+[
+  {
+    "tier": 16,
+    "where": "simulator",
+    "result": {
+      "F": 0.922751138042986,
+      "F_err": 0.005939486766858263,
+      "P": 0.955635793753213,
+      "P_err": 0.0035777970750166467,
+      "X": 0.934230688579546,
+      "X_err": 0.007115681408687635,
+      "n": 16,
+      "shots": 99984,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.955635793753213,
+            "X": 0.934230688579546,
+            "F": 0.922751138042986
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": "XX",
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "lower_bound": 0.9108721645092696,
+    "certified": true,
+    "zne_used": false
+  },
+  {
+    "tier": 24,
+    "where": "simulator",
+    "result": {
+      "F": 0.8439530158436438,
+      "F_err": 0.007295312189344608,
+      "P": 0.9194799028949896,
+      "P_err": 0.004081886745615299,
+      "X": 0.8489462258973084,
+      "X_err": 0.009576723125131656,
+      "n": 24,
+      "shots": 99984,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9194799028949896,
+            "X": 0.8489462258973084,
+            "F": 0.8439530158436438
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": "XX",
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "lower_bound": 0.8293623914649546,
+    "certified": true,
+    "zne_used": false
+  },
+  {
+    "tier": 32,
+    "where": "simulator",
+    "result": {
+      "F": 0.8027462022355345,
+      "F_err": 0.009804054980797913,
+      "P": 0.8997097122886849,
+      "P_err": 0.0055568953235631815,
+      "X": 0.8060729798936992,
+      "X_err": 0.013030132873983868,
+      "n": 32,
+      "shots": 99984,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.8997097122886849,
+            "X": 0.8060729798936992,
+            "F": 0.8027462022355345
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": "XX",
+          "zne_factors": [
+            1
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "lower_bound": 0.7831380922739387,
+    "certified": true,
+    "zne_used": false
+  },
+  {
+    "tier": 40,
+    "where": "hardware",
+    "result": {
+      "F": 0.5678765286194951,
+      "F_err": 0.018907274370109337,
+      "P": 0.6860881990762907,
+      "P_err": 0.010425556714255482,
+      "X": 0.7635766590864087,
+      "X_err": 0.026595683891459082,
+      "n": 40,
+      "shots": 24000
+    },
+    "lower_bound": 0.5300619798792764,
+    "certified": true,
+    "zne_used": false,
+    "job_id": "dbpjrfs4148s739uoiag"
+  },
+  {
+    "tier": 48,
+    "where": "simulator",
+    "result": {
+      "F": 0.6756379090712992,
+      "F_err": 0.0284580786744261,
+      "P": 0.8320796681602131,
+      "P_err": 0.01344997392247594,
+      "X": 0.6871164818221721,
+      "X_err": 0.04338668184951413,
+      "n": 48,
+      "shots": 24000
+    },
+    "lower_bound": 0.6187217517224469,
+    "certified": true,
+    "zne_used": false
+  },
+  {
+    "tier": 48,
+    "where": "hardware-pooled audit",
+    "result": {
+      "F": 0.5104454428901981,
+      "F_err": 0.013827434698502903,
+      "P": 0.6327268528013029,
+      "P_err": 0.006736223773601709,
+      "X": 0.7554371801777904,
+      "X_err": 0.022081497312721632,
+      "n": 48,
+      "shots": 72000
+    },
+    "lower_bound": 0.4827905734931923,
+    "certified": false,
+    "zne_used": false
+  },
+  {
+    "tier": 64,
+    "where": "simulator stretch",
+    "result": {
+      "F": 0.5558619961120178,
+      "F_err": 0.033947142569225076,
+      "P": 0.7887316144226547,
+      "P_err": 0.013485707862035748,
+      "X": 0.5342607633787262,
+      "X_err": 0.05573021767406487,
+      "n": 64,
+      "shots": 31968
+    },
+    "lower_bound": 0.48796771097356767,
+    "certified": false,
+    "zne_used": false
+  }
+]
