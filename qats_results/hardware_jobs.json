@@ -54,5 +54,12 @@
     "shots_per_circuit": 375,
     "estimated_seconds": 12.068921000000001,
     "job_id": "dbpk88c4148s739up4d0"
+  },
+  "clean_cat_defne_layout_twirling": {
+    "state": "submitted",
+    "circuits": 150,
+    "shots_per_circuit": 267,
+    "estimated_seconds": 12.157459639999995,
+    "job_id": "dbpl9n5t7fqc7389kp9g"
   }
 }

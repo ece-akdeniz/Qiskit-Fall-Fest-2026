@@ -1,0 +1,74 @@
+{
+  "seed": 9901,
+  "nominal_total_shots": 100000,
+  "source_layout": "Defne hardware record, branch e957e71",
+  "qubits": [
+    50,
+    49,
+    48,
+    47,
+    57,
+    67,
+    66,
+    65,
+    64,
+    63,
+    62,
+    61
+  ],
+  "recipe": {
+    "readout_mitigation": true,
+    "gate_twirling": true,
+    "randomizations": 16,
+    "dd": null,
+    "zne_factors": [
+      1,
+      3,
+      5
+    ],
+    "zne_extrapolator": "exponential"
+  },
+  "result": {
+    "F": 0.9788885788649079,
+    "F_err": 0.010112753518380802,
+    "P": 0.987579769425924,
+    "P_err": 0.005802690227339569,
+    "X": 0.9826176188779678,
+    "X_err": 0.014121945420297799,
+    "n": 12,
+    "shots": 99904,
+    "details": {
+      "per_factor": {
+        "1": {
+          "P": 0.9631034178516513,
+          "X": 0.9284216907780314,
+          "F": 0.927314263240667
+        },
+        "3": {
+          "P": 0.9143112682135511,
+          "X": 0.8545929506616956,
+          "F": 0.8416077435443989
+        },
+        "5": {
+          "P": 0.8701641734632729,
+          "X": 0.7550758543952922,
+          "F": 0.747702100660919
+        }
+      },
+      "recipe": {
+        "readout_mitigation": true,
+        "gate_twirling": true,
+        "randomizations": 16,
+        "dd": null,
+        "zne_factors": [
+          1,
+          3,
+          5
+        ],
+        "zne_extrapolator": "exponential"
+      }
+    },
+    "certified": true
+  },
+  "target_reached": false
+}

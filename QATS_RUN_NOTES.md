@@ -86,3 +86,7 @@ and X=0.996105. The result and per-factor measurements are stored in
 `teammate_review/final_verify_099.py`. This meets the requested 0.99 simulator
 fidelity target. It is a zero-noise estimate for Cleanest Cat and is not used
 for Biggest Cat certification.
+
+
+## Final scoring freeze
+Verified Defne hardware job dbpjq25t7fqc7389ijj0: F=0.964540±0.013669, baseline=0.591590±0.007638, epsilon*=0.049128, R=8.313, estimated 11.46/15. Raw counts included. Biggest Cat remains certified N=40 hardware without ZNE.
