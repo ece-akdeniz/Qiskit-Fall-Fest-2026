@@ -1,0 +1,16 @@
+{
+  "n": 48,
+  "recipe": {
+    "readout_mitigation": true,
+    "gate_twirling": false,
+    "randomizations": 16,
+    "dd": "XX",
+    "zne_factors": [
+      1
+    ],
+    "zne_extrapolator": "exponential"
+  },
+  "seed": 0,
+  "shots": 500,
+  "job_id": "dbpjod0qtr0c738ei4d0"
+}

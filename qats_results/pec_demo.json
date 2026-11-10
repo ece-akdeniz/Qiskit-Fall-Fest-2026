@@ -1,0 +1,13 @@
+{
+  "scope": "three-qubit toy Pauli-Z gate-noise model; NOT IBM hardware or a leaderboard claim",
+  "injected_p": 0.08,
+  "learned_p": 0.08050000000000002,
+  "calibration_shots": 8000,
+  "experiment_shots": 16000,
+  "raw_F": 0.8513233771994677,
+  "pec_F": 0.9975228189290619,
+  "pec_standard_error": 0.00837255156865637,
+  "gamma": 1.4206139609416397,
+  "sampling_overhead_bound": 2.0181440260222945,
+  "explanation": "P=1 exactly in this phase-only model. Error bar includes calibration and measurement resampling."
+}

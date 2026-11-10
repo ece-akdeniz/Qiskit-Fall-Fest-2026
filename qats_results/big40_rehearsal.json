@@ -1,0 +1,30 @@
+{
+  "F": 0.7905918496334159,
+  "F_err": 0.0412109478227114,
+  "P": 0.8799178501055486,
+  "P_err": 0.020176535452117783,
+  "X": 0.8213479990557346,
+  "X_err": 0.06267966483856623,
+  "n": 40,
+  "shots": 7968,
+  "details": {
+    "per_factor": {
+      "1": {
+        "P": 0.8799178501055486,
+        "X": 0.8213479990557346,
+        "F": 0.7905918496334159
+      }
+    },
+    "recipe": {
+      "readout_mitigation": true,
+      "gate_twirling": false,
+      "randomizations": 16,
+      "dd": "XX",
+      "zne_factors": [
+        1
+      ],
+      "zne_extrapolator": "exponential"
+    }
+  },
+  "certified": true
+}

@@ -1,0 +1,15 @@
+{
+  "job_id": "dbpjrfs4148s739uoiag",
+  "recipe": {
+    "readout_mitigation": true,
+    "gate_twirling": false,
+    "randomizations": 16,
+    "dd": "XX",
+    "zne_factors": [
+      1
+    ],
+    "zne_extrapolator": "exponential"
+  },
+  "seed": 3903,
+  "shots": 500
+}

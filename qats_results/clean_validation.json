@@ -1,0 +1,402 @@
+[
+  {
+    "circuit": "middle",
+    "technique": "TREX + ZNE linear",
+    "recipe": {
+      "readout_mitigation": true,
+      "gate_twirling": false,
+      "randomizations": 16,
+      "dd": null,
+      "zne_factors": [
+        1,
+        3
+      ],
+      "zne_extrapolator": "linear"
+    },
+    "result": {
+      "F": 0.9966050355768624,
+      "F_err": 0.021501029637152082,
+      "P": 1.007971057677463,
+      "P_err": 0.013245225377271385,
+      "X": 0.9772679557987989,
+      "X_err": 0.027893271171605952,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9768052555611985,
+            "X": 0.9250634709804872,
+            "F": 0.9393369910514421
+          },
+          "3": {
+            "P": 0.9144736513286685,
+            "X": 0.8206545013438634,
+            "F": 0.8248009020006002
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1,
+            3
+          ],
+          "zne_extrapolator": "linear"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.024895994060289663,
+    "validation": [
+      {
+        "F": 0.9590398876504478,
+        "F_err": 0.018055695675591836,
+        "P": 0.9838590851466806,
+        "P_err": 0.010619989968318257,
+        "X": 0.9503616050075344,
+        "X_err": 0.022769196372534127,
+        "n": 12,
+        "shots": 24000,
+        "details": {
+          "per_factor": {
+            "1": {
+              "P": 0.9627155073736967,
+              "X": 0.9037675958877451,
+              "F": 0.9145993053175693
+            },
+            "3": {
+              "P": 0.9204283518277303,
+              "X": 0.8105795776481678,
+              "F": 0.8257181406518141
+            }
+          },
+          "recipe": {
+            "readout_mitigation": true,
+            "gate_twirling": false,
+            "randomizations": 16,
+            "dd": null,
+            "zne_factors": [
+              1,
+              3
+            ],
+            "zne_extrapolator": "linear"
+          }
+        },
+        "certified": true
+      },
+      {
+        "F": 0.9580901660236225,
+        "F_err": 0.016164273293494805,
+        "P": 0.9909281141892916,
+        "P_err": 0.009212024830194772,
+        "X": 0.9343241036686618,
+        "X_err": 0.023199948617143078,
+        "n": 12,
+        "shots": 24000,
+        "details": {
+          "per_factor": {
+            "1": {
+              "P": 0.9681442059675597,
+              "X": 0.9035741964593134,
+              "F": 0.9199313041972164
+            },
+            "3": {
+              "P": 0.9225763895240944,
+              "X": 0.8420743820406166,
+              "F": 0.8436135805444027
+            }
+          },
+          "recipe": {
+            "readout_mitigation": true,
+            "gate_twirling": false,
+            "randomizations": 16,
+            "dd": null,
+            "zne_factors": [
+              1,
+              3
+            ],
+            "zne_extrapolator": "linear"
+          }
+        },
+        "certified": true
+      }
+    ],
+    "validation_error": 0.05854495764750817
+  },
+  {
+    "circuit": "tree",
+    "technique": "DD + TREX + ZNE + twirling",
+    "recipe": {
+      "readout_mitigation": true,
+      "gate_twirling": true,
+      "randomizations": 16,
+      "dd": "XX",
+      "zne_factors": [
+        1,
+        3,
+        5
+      ],
+      "zne_extrapolator": "exponential"
+    },
+    "result": {
+      "F": 1.0102873565820678,
+      "F_err": 0.024564432172426126,
+      "P": 0.9995459199126786,
+      "P_err": 0.014663452114518683,
+      "X": 1.0214828733387784,
+      "X_err": 0.033555670008926994,
+      "n": 12,
+      "shots": 11984,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9819973107634333,
+            "X": 0.9677732286573129,
+            "F": 0.9658839250920898
+          },
+          "3": {
+            "P": 0.9153019595749606,
+            "X": 0.887504087626268,
+            "F": 0.8590540033880947
+          },
+          "5": {
+            "P": 0.8947122354740464,
+            "X": 0.7890608014561188,
+            "F": 0.7892426362021059
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": true,
+          "randomizations": 16,
+          "dd": "XX",
+          "zne_factors": [
+            1,
+            3,
+            5
+          ],
+          "zne_extrapolator": "exponential"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.034851788754493934,
+    "validation": [
+      {
+        "F": 1.008770018910973,
+        "F_err": 0.018779888839835147,
+        "P": 1.005573370726372,
+        "P_err": 0.01135277326122279,
+        "X": 1.006393296369202,
+        "X_err": 0.02332345828218551,
+        "n": 12,
+        "shots": 23968,
+        "details": {
+          "per_factor": {
+            "1": {
+              "P": 0.9831144930210155,
+              "X": 0.9636233372626904,
+              "F": 0.9649261616523608
+            },
+            "3": {
+              "P": 0.9271988947633717,
+              "X": 0.9051989302003068,
+              "F": 0.8797983598635251
+            },
+            "5": {
+              "P": 0.8898325295303924,
+              "X": 0.8232530086063142,
+              "F": 0.8014590338335494
+            }
+          },
+          "recipe": {
+            "readout_mitigation": true,
+            "gate_twirling": true,
+            "randomizations": 16,
+            "dd": "XX",
+            "zne_factors": [
+              1,
+              3,
+              5
+            ],
+            "zne_extrapolator": "exponential"
+          }
+        },
+        "certified": true
+      },
+      {
+        "F": 1.0238031944648696,
+        "F_err": 0.019183370956438087,
+        "P": 1.0104781476942868,
+        "P_err": 0.011712675500853685,
+        "X": 1.0266500935411653,
+        "X_err": 0.024388384960882522,
+        "n": 12,
+        "shots": 23968,
+        "details": {
+          "per_factor": {
+            "1": {
+              "P": 0.9827042396101425,
+              "X": 0.9866080518521814,
+              "F": 0.9760082655362332
+            },
+            "3": {
+              "P": 0.9347218394802982,
+              "X": 0.8941374288668104,
+              "F": 0.8817905539137034
+            },
+            "5": {
+              "P": 0.8822870800690429,
+              "X": 0.8307071668189938,
+              "F": 0.7976406634785398
+            }
+          },
+          "recipe": {
+            "readout_mitigation": true,
+            "gate_twirling": true,
+            "randomizations": 16,
+            "dd": "XX",
+            "zne_factors": [
+              1,
+              3,
+              5
+            ],
+            "zne_extrapolator": "exponential"
+          }
+        },
+        "certified": true
+      }
+    ],
+    "validation_error": 0.03526823658605788
+  },
+  {
+    "circuit": "timing-aware middle",
+    "technique": "TREX + ZNE linear",
+    "recipe": {
+      "readout_mitigation": true,
+      "gate_twirling": false,
+      "randomizations": 16,
+      "dd": null,
+      "zne_factors": [
+        1,
+        3
+      ],
+      "zne_extrapolator": "linear"
+    },
+    "result": {
+      "F": 0.9770108869741274,
+      "F_err": 0.022176259998074006,
+      "P": 0.9802993951188412,
+      "P_err": 0.014316006613842282,
+      "X": 0.9934229837105724,
+      "X_err": 0.030250128508190467,
+      "n": 12,
+      "shots": 12000,
+      "details": {
+        "per_factor": {
+          "1": {
+            "P": 0.9669530855516446,
+            "X": 0.9525111607277719,
+            "F": 0.9432086659155305
+          },
+          "3": {
+            "P": 0.9402604664172529,
+            "X": 0.8706875147621703,
+            "F": 0.8756042237983381
+          }
+        },
+        "recipe": {
+          "readout_mitigation": true,
+          "gate_twirling": false,
+          "randomizations": 16,
+          "dd": null,
+          "zne_factors": [
+            1,
+            3
+          ],
+          "zne_extrapolator": "linear"
+        }
+      },
+      "certified": true
+    },
+    "eps_star": 0.04516537302394659,
+    "validation": [
+      {
+        "F": 0.96370857662077,
+        "F_err": 0.01561775149782748,
+        "P": 0.982544335394271,
+        "P_err": 0.009958688208513913,
+        "X": 0.9623284824529981,
+        "X_err": 0.02168279850216066,
+        "n": 12,
+        "shots": 24000,
+        "details": {
+          "per_factor": {
+            "1": {
+              "P": 0.9592964299820229,
+              "X": 0.9299021966312121,
+              "F": 0.924247528297629
+            },
+            "3": {
+              "P": 0.9128006191575267,
+              "X": 0.8650496249876405,
+              "F": 0.845325431651347
+            }
+          },
+          "recipe": {
+            "readout_mitigation": true,
+            "gate_twirling": false,
+            "randomizations": 16,
+            "dd": null,
+            "zne_factors": [
+              1,
+              3
+            ],
+            "zne_extrapolator": "linear"
+          }
+        },
+        "certified": true
+      },
+      {
+        "F": 0.9688721194085839,
+        "F_err": 0.015248648147663193,
+        "P": 0.9896183432808964,
+        "P_err": 0.009173538042103553,
+        "X": 0.958507552255375,
+        "X_err": 0.020679377502316285,
+        "n": 12,
+        "shots": 24000,
+        "details": {
+          "per_factor": {
+            "1": {
+              "P": 0.9648428192068489,
+              "X": 0.9363638134243941,
+              "F": 0.933024725919046
+            },
+            "3": {
+              "P": 0.9152917710587535,
+              "X": 0.8920763357624295,
+              "F": 0.8613299389399682
+            }
+          },
+          "recipe": {
+            "readout_mitigation": true,
+            "gate_twirling": false,
+            "randomizations": 16,
+            "dd": null,
+            "zne_factors": [
+              1,
+              3
+            ],
+            "zne_extrapolator": "linear"
+          }
+        },
+        "certified": true
+      }
+    ],
+    "validation_error": 0.04914285180806839
+  }
+]
